@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;  
+  font-family: sans-serif;
+  }
+
+  body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(55, 31, 66);
+    /* filter: blur(8px); */
+    z-index: -1;
+    background-position: center;
+  }
+  .container{
+    width: 400px;
+    height: min-content;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    z-index: 5;
+  }
+  .search-box{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .search-box input{
+    width: 85%;
+    font-size:20px;
+    text-transform: capitalize;
+    color: black;
+    background-color: aqua;
+    padding: 12px 10px;
+    border-radius: 4px;
+  }
+  .search-box input::placeholder{
+    color: black;
+  }
+  .search-box button{
+    width: 46px;
+    height: 46px;
+    background-color: aqua;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .search-box button:hover{
+    color: #fff;
+    background-color: black;
+  }
+  .weather-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    font-style: normal;
+  }
+  .weather-body img{
+    width: 60%;
+  }
+  .weather-box{
+    margin-block: 20px;
+    text-align: center;
+  }
+  .weather-box .temperature{
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    font-style:normal;
+  }
+  .weather-box .temperature sup{
+    font-size: 20px;
+    position: absolute;
+    font-weight: 600;
+  }
+  .weather-box .discription{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;  
+    font-style: normal;
+ }
+ .weather-details{
+  margin-block: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;  
+ }
+.humadity,.wind{
+  display: flex;
+  justify-content: center;
+  margin: 0 18px;
+}
+.humadity i, .wind i{
+  font-size: 38px;
+  margin-right: 8px;
+}
+.weather-details .text{
+  font-size: 18px;
+}
+.weather-details span{
+  font-weight: 600;
+}
+.wrong-location{
+  margin-top: 20px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wrong-location h1{
+  font-size: 25px;
+  color: grey;
+  margin:25px 0;
+}
+.wrong-location img{
+  width: 80%;
+  margin-bottom: 10px;
+} 
