@@ -8,6 +8,7 @@ A simple weather web application built using HTML, CSS, and JavaScript. This app
 * User-friendly interface
 * Real-time data fetching from a weather API
 * Responsive design
+* cheak here : https://atishkr25.github.io/clearskies/
 
 ## Technologies Used
 
